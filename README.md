@@ -40,7 +40,6 @@ git remote add origin https://github.com/user/my-portfolio.git
 - You can move beteen branches by typing:
 ```
 git checkout my-portfolio
-
 ```
 to move back:
 ```
