@@ -18,7 +18,10 @@ Notice that the "Local" refers to your computer and "GitHub" refers to your GitH
 
 ### 2. GitHub
 - Create a repository (the name can be different from the local folder)
-- Copy the remote URL
+- Copy the remote URL given to you when you create a repository. It looks something like this:
+```
+git remote add origin https://github.com/user/my-portfolio.git
+```
 
 
 ### 3. Local
