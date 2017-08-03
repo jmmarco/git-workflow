@@ -73,10 +73,25 @@ Type: `git reset HEAD~`
 ## GitHub Workflow (GitHub)
 Now that you pushed the changes (commits) to your feature branch. You will need to merge it into master.
 
-1. Compare pull request
-2. Create the pull request
-3. Confirm and merge the pull request into the `master` branch.
-4. Remove the branch (optional)
+1. Compare pull request it will appear on the main window of your GitHub repository:
+![Create and pull request](images/github-new-branch-pushed.png)
+2. Create the pull request (click "compare and pull request")
+![Open a pull request](images/open-a-pull-request.png)
+3. Merge the pull request into the `master` branch.
+![Merge the PR](images/merge-pull-request.png)
+4. Confirm the merge
+![Confirm the PR](images/confirm-pull-request.png)
+5. Delete the branch (optional, helps keeps things clean)
+![Remove the branch](images/delete-branch.png)
 
 
+## Git Workflow (Local)
+You now need to get (pull) the changes to your local `master` branch
+1. On your local repository type: `git checkout master`
+2. Then make the pull request: `git pull`
+3. Local master is now updated
+
+Congratulations, you're done!
+
+You can now start a new branch to add a new feature.
 
