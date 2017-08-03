@@ -70,4 +70,13 @@ Type: `git reset HEAD~`
 **Note**: You don't need to push every time you make a commit. For example you can make several commits and then push the changes to GitHub later. Once you push to GitHub all commits and branches will be pushed to your online GitHub repository
 
 
+## GitHub Workflow (GitHub)
+Now that you pushed the changes (commits) to your feature branch. You will need to merge it into master.
+
+1. Compare pull request
+2. Create the pull request
+3. Confirm and merge the pull request into the `master` branch.
+4. Remove the branch (optional)
+
+
 
