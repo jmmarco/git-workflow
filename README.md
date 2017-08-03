@@ -37,7 +37,15 @@ git remote add origin https://github.com/user/my-portfolio.git
 ### 5. Local
 - Create a "feature" branch so you can start making the necessary changes: `git checkout -b my-portfolio`
 - You can check where you're standing by typing `git branch`
-- You can move beteen branches by typing: `git checkout name-of-my-branch`
+- You can move beteen branches by typing:
+```
+git checkout my-portfolio
+
+```
+to move back:
+```
+git checkout master
+```
 
 
 ## Normal workflow (Local)
