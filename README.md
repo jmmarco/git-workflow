@@ -60,6 +60,11 @@ or
 
 **Remember**:You can make as much commits as you want (one for each file, or one for a bunch of files, you decide which one). As a general rule commit as often as you can. Especially when you finished implementing a feature.
 
+### How to undo a local commit you already did
+Type: `git reset HEAD~`
+- The file will be unstaged and ready to be committed again. You can now make more changes or redo the commit
+
+
 ### How to push
 - `git push origin my-portfolio`
 **Note**: You don't need to push every time you make a commit. For example you can make several commits and then push the changes to GitHub later. Once you push to GitHub all commits and branches will be pushed to your online GitHub repository
